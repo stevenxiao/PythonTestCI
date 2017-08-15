@@ -16,7 +16,7 @@ class UniTestCoverage(unittest.TestCase):
 
 
     def test_add_notequal(self):
-        self.assertNotEqual(add(2, 4), 6)
+        self.assertNotEqual(add(2, 4), 5)
 
 if __name__ == "__main__":
     unittest.main()
